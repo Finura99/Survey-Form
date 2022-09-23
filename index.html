@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Market Survey Form</title>
+</head>
+<main>
+  <div id="continer">
+    <div id="form-continer">
+      <h1 id="title">Market Survey Form</h1>
+      <p id="description"> Market Survey</p>
+      <hr>
+      <form id="survey-form">
+        <label for="name" id="name-label">Name:</label>
+        <input type="text" id="name" placeholder="Enter Your Name" required>
+
+        <label for="email" id="email-label">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+
+        <label for="number" id="number-label">Number:</label>
+        <input type="number" id="number" placeholder="Enter Your Number" min="1" max="100000">
+
+        <label for="dropdown" id="age-label">Age:</label>
+        <select name="dropdown" id="dropdown">
+          <option value="empty" label="empty"></option>
+          <option value="0 - 17">0 - 17</option>
+          <option value="18 - 24">18 - 24</option>
+          <option value="25 - 34">25 - 34</option>
+          <option value="35 - 44">35 - 44</option>
+          <option value="45 - 54">45 - 54</option>
+          <option value="55 - 64">55 - 64</option>
+          <option value="65 or more">65 or more</option>
+        </select>
+
+        <label for="seconddown" id="education-label">Highest level of education:</label>
+        <select name="seconddown" id="seconddown">
+          <option value="empty" label="empty"></option>
+          <option value="High School">High School</option>
+          <option value="College Graduate">College Graduate</option>
+          <option value="Vocational Degree">Vocational Degree</option>
+          <option value="Bachelor Degree">Bachelor Degree</option>
+          <option value="Master Degree">Master Degree</option>
+          <option value="Ph.D">Ph.D</option>
+          <option value="Prefer not to answer">Prefer not to answer</option>
+        </select>
+
+        <fieldset>
+          <legend>How did you learn about the product?</legend>
+          <input id="friend" type="radio" name="why-product" value="Through a friend">
+          <label for="friend">Through a friend</label><br>
+          <input id="Advertising" type="radio" name="why-product" value="Advertising">
+          <label for="Advertising">Advertising</label><br>
+          <input id="magazine" type="radio" name="why-product" value="magazine">
+          <label for="magazine"> Read in a magazine </label><br>
+          <input id="store" type="radio" name="why-product" value="store">
+          <label for="store">Saw it in a store</label><br>
+          <input id="Other" type="radio" name="why-product" value="Other">
+          <label for="Other"> Other Text</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Why did you purchase the product?</legend>
+          <input id="Someone" type="checkbox" name="Someone" value="Someone">
+          <label for="Someone">Someone asked for it </label><br>
+          <input id="gift" type="checkbox" name="gift" value="gift">
+          <label for="gift">Makes a great gift </label><br>
+          <input id="Own-other" type="checkbox" name="Own-other" value="Own-other">
+          <label for="Own-other">Own other (products) and wanted more </label><br>
+          <input id="classic" type="checkbox" name="classic" value="classic">
+          <label for="classic">It is a classic</label><br>
+          <input id="Other-Text" type="checkbox" name="Other-Text" value="Other-Text">
+          <label for="Other-Text">Other Text</label>
+        </fieldset>
+        <label for="textarea" id="review-label">Give a review of the product:</label>
+        <textarea name="review-label" id="textarea" cols="70" rows="15"></textarea>
+        <div class="submit">
+          <input id="submit" type="submit" value="submit">
+          <input type="reset" value="clear" id="clear">
+        </div>
+        <div class="clear"></div>
+      </form>
+      <footer>
+        <p> created by Arya</p>
+      </footer>
+    </div>
+  </div>
+</main>
+
+</html>

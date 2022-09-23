@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Smooch&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  width: 100%;
+  background-image: url("https://lh3.googleusercontent.com/RBfHwgnU0UBRvssHYvsjAnvsc0o_v9KdQ0BTjxw1i7rd8kDixN3XV_rYg9fTET3mfD0lOLEZs0TtF33-1A");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  min-height: 150vh;
+  font-family: "Quicksand", sans-serif;
+}
+#continer {
+  width: 100%;
+  height: 100%;
+  padding-top: 80px;
+}
+#form-continer {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 5%;
+  box-shadow: 0 0 51px 6px rgba(145, 13, 13, 0.3);
+  border-radius: 20px;
+}
+#title,
+#description {
+  text-align: center;
+  padding: 5px;
+}
+hr {
+  width: 90%;
+  margin: 10px auto;
+}
+#survey-form {
+  padding: 10px;
+}
+#name-label,
+#email-label,
+#number-label,
+#age-label,
+#education-label,
+#review-label,
+#textarea {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 20px 10px 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: 90%;
+  padding: 10px;
+  border-radius: 4px;
+}
+input,
+textarea:not(.placeholder) {
+  opacity: 0.7;
+}
+label {
+  padding: 10px;
+}
+fieldset {
+  margin-top: 10px;
+  padding: 10px;
+}
+legend {
+  padding: 10px;
+  margin: 5px;
+}
+
+#dropdown,
+#seconddown {
+  width: 90%;
+  padding: 10px;
+  opacity: 0.7;
+}
+#textarea {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+#clear,
+#submit {
+  padding: 15px;
+  border-radius: 30px;
+  min-width: 90px;
+  font-weight: 500;
+  font-size: 18px;
+  border: none;
+  color: rgb(255, 22, 22);
+  background-color: rgb(13, 180, 156);
+  box-shadow: 0 0 51px 6px rgba(255, 90, 90, 0.3);
+  opacity: 0.7;
+  float: right;
+  margin: 20px;
+  cursor: pointer;
+}
+#clear:hover,
+#submit:hover {
+  color: rgb(106, 84, 156);
+  background-color: white;
+}
+section {
+  width: 90%;
+  height: auto;
+}
+.clear {
+  clear: both;
+}
+footer p {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  #form-continer {
+    width: 100%;
+  }
+}
